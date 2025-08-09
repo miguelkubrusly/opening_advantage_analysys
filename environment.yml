@@ -1,0 +1,17 @@
+name: lichess-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - requests
+  - pip
+  - pip:
+      - python-chess
+      - berserk==0.13.2
+      - python-dotenv
+      - pydantic
+      - pytest
+      - requests-mock
+      - tqdm
+      - ruff
+      - mypy
